@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- * Return: Always 0 (Success) 
+ *Description: The program prints a specified sentence
+ * Return: Always 0 (Success)
  */
 int main(void) /*Entry point of the program*/
 {
