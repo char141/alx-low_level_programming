@@ -13,7 +13,7 @@ int main(void)
 	for (placeholder = 0; placeholder <= 50; placeholder++)
 	{
 		nextterm = term1 + term2;
-		printf("%d", nextterm);
+		printf("%lu", nextterm);
 
 		term1 = term2;
 		term2 = nextterm;
