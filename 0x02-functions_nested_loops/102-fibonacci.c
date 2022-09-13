@@ -8,7 +8,7 @@
 int main(void)
 {
 	int placeholder;
-	unsigned long term1 = 1, term2 = 2, nextterm;
+	unsigned long term1 = 0, term2 = 1, nextterm;
 
 	for (placeholder = 0; placeholder <= 50; placeholder++)
 	{
