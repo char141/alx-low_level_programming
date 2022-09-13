@@ -3,7 +3,7 @@
 #include "stdlib.h"
 /**
  * main - prints the first 50 fibbonachi numbers.
- * Result: always 0
+ * Return: always 0
 */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 		if (placeholder == 49)
 			printf("\n");
 		else
-			printf(",");
+			printf(", ");
 	}
 	return (0);
 }
