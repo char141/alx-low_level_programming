@@ -10,7 +10,7 @@ int main(void)
 	int placeholder;
 	unsigned long term1 = 0, term2 = 1, nextterm;
 
-	for (placeholder = 0; placeholder <= 50; placeholder++)
+	for (placeholder = 0; placeholder < 50; placeholder++)
 	{
 		nextterm = term1 + term2;
 		printf("%lu", nextterm);
