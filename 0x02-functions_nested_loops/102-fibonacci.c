@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stio.h"
+#include "stdio.h"
 #include "stdlib.h"
 /**
  * main - prints the first 50 fibbonachi numbers.
