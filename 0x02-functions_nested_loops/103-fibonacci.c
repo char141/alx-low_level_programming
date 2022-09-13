@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 /**
- * Main - prints the sum of even valued fibonacci terms.
+ * main - prints the sum of even valued fibonacci terms.
  * Return: always 0
 */
 int main(void)
