@@ -14,7 +14,7 @@ int main(void)
 
 	for (placeholder = 0; placeholder < 92; placeholder++)
 	{
-		nexttem = term1 + term2;
+		nextterm = term1 + term2;
 		printf("%lu, ", nextterm);
 
 		term1 = term2;
