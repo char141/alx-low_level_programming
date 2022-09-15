@@ -28,7 +28,7 @@ int main(void)
 			printf("Fizz ");
 		else
 			printf("%d ", place);
-		h++;
+		place++;
 	}
 	return (0);
 }
