@@ -11,7 +11,7 @@ int main(void)
 	long int number = 612852475143;
 	int prime;
 
-	for (prime = 2; prime <= sqrt(num); prime++)
+	for (prime = 2; prime <= sqrt(number); prime++)
 	{
 		if (number % prime == 0)
 		{
