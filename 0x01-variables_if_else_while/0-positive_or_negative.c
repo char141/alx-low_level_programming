@@ -1,7 +1,3 @@
-/*
- * File: 0-positive_or_negative.c
- * Auth: Brennan D Baraban
- */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -12,10 +8,9 @@
  * Return: Always 0.
  */
 int main(void)
-
 {
 	int n;
-
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
