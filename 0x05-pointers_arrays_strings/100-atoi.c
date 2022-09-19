@@ -6,21 +6,16 @@
  */
 int _atoi(char *s)
 {
-	int i, j, n, m;
+	int i, result, negative;
 
-	i = n = 0;
-	m = 1;
-	while ((*(s + i) < '0' || *(s + i) > '9') && (*(s + i) != '\0'))
-	{
-		if (*(s + i) == '-')
-			m *= -1;
-		i++;
-	}
-	j = 1;
-	while ((*(s + j) >= '0') && (*(s + j) <= '9'))
-	{
-		n = n * 10 + m * (*(s + j) - '0');
-		j++;
-	}
-	return (n);
+	i = result = 0;
+	negative = 1;
+	for (i = 0; s[i]; i++)
+		negative = -negative;
+	if ((s[i] >= '0') && (s[i] <= '9'))
+		result = result * 10 + negative * (s[i] - '0');
+	else if (result != 0)
+		break;
+}
+return (result);
 }
