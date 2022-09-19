@@ -14,5 +14,5 @@ int _strlen(char *s)
 		sum++;
 		word = s[i++];
 	}
-	return (0);
+	return (sum);
 }
