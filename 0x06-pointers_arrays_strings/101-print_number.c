@@ -19,7 +19,7 @@ void print_number(int n)
 	}
 	d = m;
 	count = 1;
-	while (d > a)
+	while (d > 9)
 	{
 		d /= 10;
 		count *= 10;
