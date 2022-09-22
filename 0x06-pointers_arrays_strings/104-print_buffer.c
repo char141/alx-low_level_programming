@@ -24,7 +24,7 @@ void print_line(char *c, int s, int l)
 	for (k = 0; k <= s; k++)
 	{
 		if (c[l * 10 + k] > 31 && c[l * 10 + k] < 127)
-			printf("%02x", c[l * 10 + k]);
+			printf("%c", c[l * 10 + k]);
 		else
 			printf(".");
 	}
