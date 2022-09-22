@@ -17,11 +17,11 @@ void print_buffer(char *b, int size)
 		for (i = 0; i < 10; i++)
 		{
 			if ((i + x) >= size)
-				printf(" ");
+				printf("  ");
 			else
 				printf("%02x", *(b + i + x));
 			if ((i % 2) != 0 && i != 0)
-				printf(" ");
+				printf("  ");
 		}
 		for (i = 0; i < 10; i++)
 		{
