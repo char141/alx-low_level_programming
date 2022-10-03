@@ -8,29 +8,29 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int 2D;
+	int **arr;
 	int height_index, width_index;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	2D = malloc(sizeof(int *) * height);
-	if (2D == NULL)
+	arr = malloc(sizeof(int *) * height);
+	if (arr == NULL)
 		return (NULL);
 	for (height_index = 0; height_index < height; height_index++)
 	{
-		2D[height_index] = malloc(sizeof(int) * width);
-		if (2D[height_index] == NULL)
+		arr[height_index] = (int *)malloc(sizeof(int) * width);
+		if (arr[height_index] == NULL)
 		{
 			for (; height_index >= 0; height_index--)
-				free(2D[height_index]);
-			free(2D);
+				free(arr[height_index]);
+			free(arr);
 			return (NULL);
 		}
 	}
 	for (height_index = 0; height_index < height; height_index++)
 	{
 		for (width_index = 0; width_index < width; width_index++)
-			2D[height_index][width_index] = 0;
+			arr[height_index][width_index] = 0;
 	}
-	return (2D);
+	return (arr);
 }
