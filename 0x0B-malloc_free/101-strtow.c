@@ -63,7 +63,7 @@ char **strtow(char *str)
 		while (str[i] == ' ')
 			i++;
 		letters = word_len(str + i);
-		strings[w] = malloc(sizeof(char) * (letters + i));
+		strings[w] = malloc(sizeof(char) * (letters + 1));
 		if (strings[w] == NULL)
 		{
 			for (; w >= 0; w--)
