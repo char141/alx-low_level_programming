@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 #include <stdlib.h>
 int _strlen(char *str);
 char *_strcpy(char *dest, char *str);
@@ -11,7 +11,7 @@ int _strlen(char *str)
 {
 	int i = 0;
 
-	for (i = 0; s[i]; i++)
+	for (i = 0; str[i]; i++)
 		;
 	return (i);
 }
@@ -21,7 +21,7 @@ int _strlen(char *str)
  * @src: copy from
  * Return: dest
  */
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
