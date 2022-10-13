@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+#include"function_pointers.h"
 /**
  * array_iterator - function to iterate through an array and perform an action
  * @array: array to iterate through
@@ -6,7 +8,7 @@
  * @action: action (function) to perform on array elements
  * Return: void
  */
-void array_iterator(int *array, size t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i = 0;
 
