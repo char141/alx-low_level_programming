@@ -8,9 +8,9 @@
  */
 typedef struct print_convert_variable
 {
-	char type;
-	void (*f)(va_list *);
-} conv_t;
+	char *symbol;
+	void (*print)(va_list arg);
+} printer_t;
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *seperator, const unsigned int n, ...);
 void print_strings(const char *seperator, const unsigned int n, ...);
