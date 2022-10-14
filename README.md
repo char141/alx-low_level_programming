@@ -7,5 +7,5 @@ Will not use stdlib in the first few sets of problems
 Build our own shell, possibly in a seperate project
 Build our own printf statement, possibly in a seperate project
 
-Acknowledgement
+Acknowledgements
 All work contained in this project was completed as part of the curriculum for Holberton School. Holberton School is a campus-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning.
