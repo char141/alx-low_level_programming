@@ -49,7 +49,7 @@ size_t looped_listint_len(const listint_t *head)
  *
  * Return: size_t, number of nodes. Exits with 98 on failure
  */
-size_t print_listint_safe(const listint_t *h)
+size_t print_listint_safe(const listint_t *head)
 {
 	size_t nodes, index = 0;
 
