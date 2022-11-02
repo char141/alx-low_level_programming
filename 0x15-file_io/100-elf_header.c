@@ -57,7 +57,7 @@ void print_magic(unsigned char *e_ident)
 }
 /**
  * print_class - Prints the class of an ELF header.
- * 
+ *
  * @e_ident: A pointer to an array containing the ELF class.
  *
  * Return: ELF Class
@@ -258,7 +258,7 @@ void close_elf(int elf)
 	}
 }
 /**
- * main - Displays the information contained in the header at the start of ELF file.
+ * main - Entry point of the program.
  *
  * @argc: The number of arguments supplied to the program.
  *
